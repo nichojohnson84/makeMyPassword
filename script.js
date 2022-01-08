@@ -56,7 +56,7 @@ function generatePassword() {
   
   }
   if (upCase) {
-    lowCase = upper;
+    upCase = upper;
     possiblities = possiblities + upCase;
   }
   if (special) {
